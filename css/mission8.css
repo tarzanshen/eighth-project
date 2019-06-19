@@ -482,7 +482,7 @@
     margin-left: 26px;
 }
 .select-line3-padding{
-    padding-right: 21px;
+    padding-right: 27px;
 }
 @media (max-width:768px) {
     .select-line3-padding{
@@ -513,6 +513,8 @@
     background-color: #1d7ad9;
     top: 4px;
     left: 101px;
+    z-index: 999999;
+    pointer-events: none;
 
 }
 .triangle{
@@ -661,5 +663,5 @@
      
 }
 .footer-end{
-    width: 85%;
+    width: 80%;
 }
